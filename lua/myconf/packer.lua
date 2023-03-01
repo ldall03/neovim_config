@@ -8,12 +8,18 @@ return require('packer').startup(function()
 	  requires = { {'nvim-lua/plenary.nvim'} }
 	}
 
+    -- Themes
+    use 'navarasu/onedark.nvim'
+    use 'folke/tokyonight.nvim'
+    use 'AlexvZyl/nordic.nvim'
+    use { "catppuccin/nvim", as = "catppuccin" }
+    use 'ellisonleao/gruvbox.nvim'
+
     use 'folke/zen-mode.nvim'
     use 'lervag/vimtex'
     use 'windwp/nvim-autopairs'
     use 'nvim-lua/plenary.nvim'
     use 'ThePrimeagen/harpoon'
-    use 'ellisonleao/gruvbox.nvim'
     use 'nvim-lualine/lualine.nvim'
     use 'lukas-reineke/indent-blankline.nvim'
     use 'numToStr/Comment.nvim'
