@@ -1,4 +1,4 @@
-#nvim config
+# nvim config
 My neovim config files
 
 # Quickstart
