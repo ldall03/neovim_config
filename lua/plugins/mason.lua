@@ -1,6 +1,8 @@
 local servers = {
     "lua_ls",
-    "rust_analyzer"
+    "rust_analyzer",
+    "clangd",
+    "texlab",
 }
 
 local settings = {

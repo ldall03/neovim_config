@@ -1,4 +1,5 @@
 require("plugins.autopairs")
+require("plugins.vimtex")
 require("plugins.cmp")
 require("plugins.comment")
 require("plugins.fugitive")

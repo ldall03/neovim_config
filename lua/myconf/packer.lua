@@ -8,6 +8,8 @@ return require('packer').startup(function()
 	  requires = { {'nvim-lua/plenary.nvim'} }
 	}
 
+    use 'folke/zen-mode.nvim'
+    use 'lervag/vimtex'
     use 'windwp/nvim-autopairs'
     use 'nvim-lua/plenary.nvim'
     use 'ThePrimeagen/harpoon'
